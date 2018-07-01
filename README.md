@@ -1,1 +1,10 @@
-# fractilloscope
+# Fractilloscope
+
+An ActionScript/Flash app that generates fractals, with options to vary the fractal angle, line-length, and order (or number of iterations). Presets include recommended settings for the most impressive results. The design, as you can see below, was inspired by classic oscilloscopes.
+
+![screenshot](/img/fractilloscope-screenshot.png)
+
+Out of the eleven fractal presets implemented in this application, seven are based on well-known algorithms. The following three are however my own creations:
+* The first fractal I called the Spider, as it looked to me like a spider sitting on its web, ready to attack. The recursive method consists of six turns, and at each turn the method recursively calls itself. Four of these six calls halve the line length (line/2) whereas two retain the existing line length, and it is this variation which gives the fractal its distinctive insect-like appearance.
+* My second fractal, the Wicker Star, looks a lot less menacing, and produces some results I was very happy with (as per screenshot). Several angles in particular lead to some nice patterns (e.g. 26°, 36°, 40°, 46°, and 50°). Many angles produce an interweaved, wicker-basket-like effect, which is why I chose that name. It is a fairly simple recursive method which only calls itself the once, but when it does it multiplies the line length by 0.99, which is what leads to the slightly receding, spiral/star-like results.
+* My final fractal is called the Wheel Web, so-called because the results (using an angle of 30° in particular) create a web-like pattern punctuated by spherical areas that looked a little like bicycle wheels. With some adjustments however it is possible to create completely different results, e.g. with an angle of 30°, a line length of 60 and an order of 8, it looks like a thatched-sketch effect. And by adjusting the angle by just a single degree to 90°, you get a symmetric array of rectangles and squares. In contrast to the other recursive methods, this method calls itself in an irregular manner (i.e. it makes a turn/line, calls itself, makes another turn/line, calls itself, but then makes two more turns and lines without calling itself). The other methods called themselves recursively in a more regular way (e.g. once for each turn, or once in the middle of the method).
