@@ -3,7 +3,7 @@
 	Chen Yin Jie http://crr.ucc.ie/yinjiechen.html
 */
 
-package com.mi {
+package com {
 
 	import flash.display.MovieClip;
 	

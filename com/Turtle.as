@@ -4,7 +4,7 @@
 	three attributes: an orientation (or direction), a location, and a pen. The pen
 	also has attributes: color, line-width, and on/off (or up/down press) state.
 */
-package com.mi {
+package com {
 
 	public class Turtle {
 			public static const PI = Math.PI;
