@@ -1,5 +1,9 @@
 root = true
 
-[com/mi/*.as]
+[com/*.as]
+indent_style = tab
+indent_size = 2
+
+[fractals/*.as]
 indent_style = tab
 indent_size = 2
