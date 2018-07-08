@@ -1,6 +1,7 @@
 # Fractilloscope
 
 An ActionScript/Flash app that generates fractals, with options to vary the fractal angle, line-length, and order (or number of iterations). Presets include recommended settings for the most impressive results. The design, as you can see below, was inspired by classic oscilloscopes.
+To play around with the app, download and run the .swf file above.
 
 ![screenshot](/img/fractilloscope-screenshot.png)
 
